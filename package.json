@@ -2,10 +2,10 @@
   "name": "india",
   "version": "0.0.3",
   "description": "INterface Diffing and Inspection Assistant",
-  "bin": "index.js",
-  "main": "india.js",
+  "bin": "server.js",
+  "main": "lib",
   "scripts": {
-    "test": "nodeunit ./test/*",
+    "test": "nodeunit test.js",
     "pretest": "npm install"
   },
   "preferGlobal": true,

@@ -1,4 +1,4 @@
-const india = require('../india')
+const india = require('.')
 
 // mocks
 require('util').puts = function(){}

@@ -1,20 +1,22 @@
 #!/usr/bin/env node
 
-const _ = require('lodash')
 const exec = require('child_process').exec
 const fs = require('fs')
-const india = require('./india')
 const path = require('path')
+
+const _ = require('lodash')
 const q = require('q')
 const semver = require('semver')
+
+const india = require('.')
+
+
 const argv = process.argv
+
 
 var hash1, hash2, filename
 
 
-
-
-// check for arguments
 if (argv[2] !== '--' && argv[3] !== '--' && argv[4] !== '--') {
   throw new TypeError('india CLI expects to be called in the form "india :hash -- file.js"')
 }
