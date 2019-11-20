@@ -33,7 +33,7 @@
   "homepage": "https://github.com/bcherny/india",
   "dependencies": {
     "chalk": "^0.5.1",
-    "handlebars": "^2.0.0",
+    "handlebars": "^4.5.3",
     "jsdoc-parse": "^0.2.10",
     "lodash": "^2.4.1",
     "ordinal": "0.0.2",
