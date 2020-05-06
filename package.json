@@ -6,7 +6,9 @@
   "main": "lib",
   "scripts": {
     "test": "nodeunit test.js",
-    "pretest": "npm install"
+    "pretest": "npm install",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "preferGlobal": true,
   "repository": {
@@ -40,9 +42,11 @@
     "pluralize": "^1.1.0",
     "q": "^1.0.1",
     "semver": "^4.1.0",
-    "streamifier": "^0.1.0"
+    "streamifier": "^0.1.0",
+    "snyk": "^1.319.1"
   },
   "devDependencies": {
     "nodeunit": "^0.9.0"
-  }
+  },
+  "snyk": true
 }
