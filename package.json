@@ -35,7 +35,7 @@
     "chalk": "^0.5.1",
     "handlebars": "^2.0.0",
     "jsdoc-parse": "^0.2.10",
-    "lodash": "^2.4.1",
+    "lodash": "^4.17.20",
     "ordinal": "0.0.2",
     "pluralize": "^1.1.0",
     "q": "^1.0.1",
